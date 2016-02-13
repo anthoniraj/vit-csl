@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
   <info>
     <title>VIT Reference Style First edition (author-date)</title>
-    <id></id>
+    <id>https://github.com/anthoniraj/vit-csl/blob/master/vit-style.csl</id>
     <author>
       <name>Anthoniraj Amalanathan</name>
       <email>aanthoniraj@vit.ac.in</email>
@@ -15,4 +15,12 @@
     	This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
     </rights>
   </info>
+    <citation>
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout>
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
 </style>
